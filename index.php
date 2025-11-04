@@ -188,7 +188,7 @@
     <!-- Contact -->
     <div id="contact" class="page hidden">
       <h2>Contact</h2>
-      <p><b>Email:</b> saurav@example.com</p>
+      <p><b>Email:</b> sk0884518@gmail.com</p>
       <p><b>GitHub:</b> <a href="https://github.com/Sau2901" target="_blank">github.com/Sau2901</a></p>
     </div>
   </div>
