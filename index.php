@@ -39,7 +39,7 @@
             text-transform: uppercase;
         }
         h2{
-            color: #0d6efd
+            color: #0d6efd;
         }
 
         form {
