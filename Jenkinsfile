@@ -79,9 +79,19 @@ pipeline {
     post {
         success {
             echo "Notes-app deployed successfully: http://${HOST}:${PORT}"
+            emailext(
+                subject: "Build Successfull",
+                body: "COngrats !! Build was successfull",
+                to: "sk0884518@gmail.com"
+                )
         }
         failure {
             echo "Build or deploy failed. Check logs."
+            emailext(
+                subject: "Build got failed",
+                body: "Oops!! Build failed",
+                to: "sk0884518@gmail.com"
+                )
         }
     }
 }
