@@ -38,6 +38,9 @@
             letter-spacing: 1px;
             text-transform: uppercase;
         }
+        h2{
+            color: #0d6efd
+        }
 
         form {
             display: flex;
